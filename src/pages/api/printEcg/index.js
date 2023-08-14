@@ -1,6 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 // import puppeteer from '../../../../node_modules/puppeteer';
-let puppeteer = require('../../../../node_modules/puppeteer');
+let puppeteer
 
 if (process.env.AWS_LAMBDA_FUNCTION_VERSION) puppeteer = require('../../../../node_modules/puppeteer-core');
 else puppeteer = require('../../../../node_modules/puppeteer');
