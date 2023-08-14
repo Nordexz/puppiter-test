@@ -12,8 +12,4 @@ module.exports = {
 
     return config;
   },
-  experimental: {
-    legacyBrowsers: false,
-    outputFileTracingIgnores: ['**canvas**'],
-},
 };
