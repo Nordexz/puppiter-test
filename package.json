@@ -15,9 +15,11 @@
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.13",
     "next": "13.4.13",
-    "puppeteer": "^21.0.3",
     "puppeteer-core": "^6.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0,"
+  },
+  "devDependencies": {
+    "puppeteer": "^21.0.3"
   }
 }
