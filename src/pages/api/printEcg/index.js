@@ -1,8 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
 // import puppeteer from '../../../../node_modules/puppeteer';
-export const config = {
-  runtime: 'edge', 
-};
 
 let puppeteer
 
