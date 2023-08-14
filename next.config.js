@@ -21,4 +21,14 @@ module.exports = {
       ],
     },
   },
+  experimental: {  
+    outputFileTracingExcludes: {  
+      '*': [  
+        'node_modules/@swc/**/*',  
+        'node_modules/@esbuild/**/*',  
+        'node_modules/terser/**/*',  
+        'node_modules/webpack/**/*',  
+      ],  
+    },
+  }
 };
