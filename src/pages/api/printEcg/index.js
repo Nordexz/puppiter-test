@@ -3,7 +3,6 @@
 let puppeteer = require('../../../../node_modules/puppeteer');
 
 if (process.env.AWS_LAMBDA_FUNCTION_VERSION) puppeteer = require('../../../../node_modules/puppeteer-core');
-const cheerio = require('cheerio');
 const chromium = require('chrome-aws-lambda');
 
 export default async (req, res) => {
