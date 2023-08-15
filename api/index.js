@@ -1,10 +1,4 @@
-/* eslint-disable import/no-anonymous-default-export */
-// import puppeteer from '../../../../node_modules/puppeteer';
-
-let puppeteer
-
-if (process.env.AWS_LAMBDA_FUNCTION_VERSION) puppeteer = require('puppeteer-core');
-else puppeteer = require('puppeteer');
+let puppeteer = require('puppeteer-core');
 const chromium = require('chrome-aws-lambda');
 
 export default async (req, res) => {
