@@ -9,16 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@sparticuz/chromium-min": "^115.0.0",
     "chrome-aws-lambda": "^6.0.0",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.13",
-    "next": "13.4.13",
-    "puppeteer-core": "^6.0.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "puppeteer-core": "^6.0.0"
   },
   "devDependencies": {
+    "next": "13.4.13",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "bufferutil": "^4.0.7",
     "puppeteer": "^21.0.3",
     "utf-8-validate": "^5.0.10"
